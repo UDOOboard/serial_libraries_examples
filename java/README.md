@@ -30,7 +30,7 @@ for Java_serial_example_bidirectional.java:
 
 
 
-Installation Instructions for proper Java Libraries 
+Installation Instructions with Vanilla Java Libraries 
 --------------
 
 Install librxtx-java

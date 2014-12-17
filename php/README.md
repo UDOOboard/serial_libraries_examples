@@ -1,20 +1,34 @@
-/**
-*  Copyright (C) 2014 Ekironji <ekironjisolutions@gmail.com>
-*
-*  This file is part of serial libraries examples for UDOO
-*
-*  Serial libraries examples for UDOO is free software: you can redistribute it and/or modify
-*  it under the terms of the GNU General Public License as published by
-*  the Free Software Foundation, either version 3 of the License, or
-*  (at your option) any later version.
-*
-*  This libraries are distributed in the hope that it will be useful,
-*  but WITHOUT ANY WARRANTY; without even the implied warranty of
-*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*  GNU General Public License for more details.
-*
-*  You should have received a copy of the GNU General Public License
-*  along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*
-*/
+This file describes how to run the PHP examples contained in this folder. To run this PHP examples you need a PHP interpreter and a Web Server.  The easiest way is install a preconfigured LAMP environment using tasksel.
+
+1 - In a terminal run:
+
+    sudo apt-get update
+    sudo apt-get install tasksel
+
+2 - Install LAMP following the instruction:
+
+    sudo tasksel install lamp-server 
+
+3 - Grant www-data user appropriate permissions for the serial port:
+
+    sudo adduser www-data intserial
+
+4 - Navigate in this folder and copy the php files in the Apache web server folder (/var/www/):
+
+    cd serial_libraries_examples/php/
+    sudo cp php_serial* /var/www/
+
+(Note: php_serial.class.php is the library we use to communicate with the serial port)
+
+5 - Open a browser and go to these pages writing in the address bar:
+
+for php_serial_example.php:
+
+    localhost/php_serial_example.php
+
+for php_serial_example_bidirectional.php:
+
+    localhost/php_serial_example_bidirectional.php
+
+
 

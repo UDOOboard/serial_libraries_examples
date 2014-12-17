@@ -3,18 +3,16 @@ Python serial libraries for UDOO
 
 This file describes how to run the python examples contained in this folder.
 
-* Install the library to manage the serial:
+1- Install the library to manage the serial:
 (NB: jump this step if you have this example preinstalled in you UDOObuntu distribution, release 1.1 and above)
-
 
     sudo pip install pyserial
 
-* Open a terminal and navigate to this folder:
-
+2- Open a terminal and navigate to this folder:
 
     cd serial_libraries_examples/java/
 
-* Run the python program:
+3- Run the python program:
 
 for python_serial_example.py:
 

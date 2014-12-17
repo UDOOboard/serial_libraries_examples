@@ -1,20 +1,35 @@
-/**
-*  Copyright (C) 2014 Ekironji <ekironjisolutions@gmail.com>
-*
-*  This file is part of serial libraries examples for UDOO
-*
-*  Serial libraries examples for UDOO is free software: you can redistribute it and/or modify
-*  it under the terms of the GNU General Public License as published by
-*  the Free Software Foundation, either version 3 of the License, or
-*  (at your option) any later version.
-*
-*  This libraries are distributed in the hope that it will be useful,
-*  but WITHOUT ANY WARRANTY; without even the implied warranty of
-*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*  GNU General Public License for more details.
-*
-*  You should have received a copy of the GNU General Public License
-*  along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*
-*/
+C Serial Libraries for UDOO
+---------
+
+This file describes how to compile and run the C examples contained in this folder.
+
+1 - Open a terminal and navigate to this folder:
+
+    cd serial_libraries_examples/c/
+
+2 - Compile the C file:
+
+for c_serial_example.c:
+
+    gcc -o c_serial_example c_serial_example.c
+
+for c_serial_example_bidirectional.c:
+
+    gcc -o c_serial_example_bidirectional c_serial_example_bidirectional.c
+
+3 - Run the C program:
+
+for c_serial_example.c:
+
+    ./c_serial_example
+
+for c_serial_example_bidirectional.c:
+
+    ./c_serial_example_bidirectional
+
+
+
+
+
+
 

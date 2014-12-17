@@ -1,3 +1,6 @@
+PHP Serial Libraries for UDOO
+--------
+
 This file describes how to run the PHP examples contained in this folder. To run this PHP examples you need a PHP interpreter and a Web Server.  The easiest way is install a preconfigured LAMP environment using tasksel.
 
 1 - In a terminal run:

@@ -2,9 +2,9 @@ UDOO Serial Libraries Examples
 ==========
 
 
-Serial Libraries Communication Samples for UDOO Board
+Serial Libraries Communication Samples for [UDOO Board](http://www.udoo.org)
 
-Copyright (C) 2014 Ekironji ekironjisolutions@gmail.com
+Copyright (C) 2014 [Ekironji Solutions](ekironjisolutions@gmail.com)
 
 These example’s scripts are meant to demonstrate how to implement a uni\bidirectional communication between an Arduino sketch (running on SAM3X Arduino Compatible processor) and a binary application on iMX6 Linux processor.
 

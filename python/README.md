@@ -3,7 +3,7 @@ Python serial libraries for UDOO
 
 This file describes how to run the python examples contained in this folder.
 
-1- Install the library to manage the serial:
+1- Install the Python library to manage the serial:
 (NB: jump this step if you have this example preinstalled in you UDOObuntu distribution, release 1.1 and above)
 
     sudo pip install pyserial

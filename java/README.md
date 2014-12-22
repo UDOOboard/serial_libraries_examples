@@ -5,6 +5,7 @@ This file describes how to compile and run the Java examples contained in this f
 
 1 - Install the Java library to manage the serial:
 (NB: jump to the step 2 if you have this example preinstalled in you UDOObuntu distribution, release 1.1 and above)
+
 1a. If you are in a UDOO distribution with the Arduino IDE preinstalled(UDOObuntu 1.0, Debian Wheezy 1.1) use the library contained in the /lib folder(this recompiled library handles properly the /dev/ttymxc3 internal serial of UDOO):
 
     sudo cp /opt/arduino-1.5.4/lib/librxtxSerial-2.2pre1.so /usr/lib/jvm/java-7-openjdk-armhf/jre/lib/arm/

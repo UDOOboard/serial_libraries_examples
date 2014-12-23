@@ -10,7 +10,7 @@ This file describes how to run the python examples contained in this folder.
 
 2- Open a terminal and navigate to this folder:
 
-    cd serial_libraries_examples/java/
+    cd serial_libraries_examples/python/
 
 3- Run the python program:
 

@@ -1,37 +1,34 @@
 PHP Serial Libraries for UDOO
 --------
 
-This file describes how to run the PHP examples contained in this folder. To run this PHP examples you need a PHP interpreter and a Web Server.  The easiest way is install a preconfigured LAMP environment using tasksel.
+This file describes how to run the PHP examples contained in this folder.
 
-1 - In a terminal run:
+To run these PHP examples, we will use the PHP interpreter and its embedded Web Server. The same examples can be executed over Apache or nginx too.
 
-    sudo apt-get update
-    sudo apt-get install tasksel
+1 - Flash the Arduino Sketch using the Arduino IDE
 
-2 - Install LAMP following the instruction:
-
-    sudo tasksel install lamp-server 
-
-3 - Grant www-data user appropriate permissions for the serial port:
-
-    sudo adduser www-data intserial
-
-4 - Navigate in this folder and copy the php files in the Apache web server folder (/var/www/):
+2 - Navigate in this folder:
 
     cd serial_libraries_examples/php/
-    sudo cp php_serial* /var/www/
 
-(Note: php_serial.class.php is the library we use to communicate with the serial port)
 
-5 - Open a browser and go to these pages writing in the address bar:
+3 - Start the embedded web server:
 
-for php_serial_example.php:
+    php -S 0.0.0.0:8080
 
-    localhost/php_serial_example.php
 
-for php_serial_example_bidirectional.php:
+4 - Open a browser (on your UDOO or on your computer) and run the examples writing in the address bar:
 
-    localhost/php_serial_example_bidirectional.php
+For the basic serial example:
+
+    http://127.0.0.1:8080/index.php
+
+
+For the bidirectional serial example:
+
+    http://127.0.0.1:8080/index_bidirectional.php
+
+Please note, use `127.0.0.1` if you open the browser directly on the UDOO; otherwise use `192.168.7.2` if you are using the USB connection. WiFi/Ethernet IP address are supported too.
 
 
 

@@ -21,7 +21,7 @@
 import serial
 import time
 
-ser = serial.Serial('/dev/ttymxc3',115200,timeout=1)
+ser = serial.Serial('/dev/ttyS0',115200,timeout=1)
 ser.flushOutput()
 
 print 'Serial connected'

@@ -19,7 +19,7 @@
  *
  */
 
-	define("PORT","/dev/ttyMCC");
+	define("PORT","/dev/ttyS0");
 	$ledOn = false;
 
 	if (isset($_GET['action'])) {

@@ -84,7 +84,7 @@ set_blocking (int fd, int should_block)
 }
 
 int main(void) {
-	char *portname = "/dev/ttymxc3";
+	char *portname = "/dev/ttyS0";
 	
 	int fd = open (portname, O_RDWR | O_NOCTTY | O_SYNC);
 	if (fd < 0)

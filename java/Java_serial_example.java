@@ -35,7 +35,7 @@ public class Java_serial_example {
 
 			System.out.println("connecting to serial port...");
 			try {
-				UDOOserial.connect("/dev/ttyS0");
+				UDOOserial.connect("/dev/ttyACM0");
 				System.out.println("Connected!");
 			} catch (Exception e) {
 				e.printStackTrace();
